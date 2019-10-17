@@ -1,4 +1,16 @@
+body{
+    margin: 30px;
+}
 .bg-company-mint{
     background-color: #00b1ac;
-    
+}
+.my-container {
+    border: 1px solid green;
+}
+
+.my-row {
+    border: 3px solid red;
+}
+.my-col {
+    border: 3px solid blue;
 }
