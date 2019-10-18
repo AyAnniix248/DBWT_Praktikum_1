@@ -16,7 +16,17 @@ body{
 .myPic{
     margin-bottom: 15px;
 }
-
+a{
+    color: #00b1ac;
+}
+a:focus {
+    text-decoration: none;
+}
+.footerStuff{
+    padding-left: 5px;
+    padding-right: 5px;
+    border-right: 1px black;
+}
 p {
     font-size: 28px;
 }

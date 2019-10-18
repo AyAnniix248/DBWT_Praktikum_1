@@ -15,7 +15,9 @@
         <?php include('Header.html');?>
 
         <!-- schöner machen -->
-        <img src="../img/top(probe).jpg" alt="Kantine" class="mx-auto d-block myPic" width="100%" height="20%">
+        <div class="container-fluid">
+        <img src="../img/mensa-fh-aachen.png" alt="Kantine" class="mx-auto d-block myPic" width="100%" height="20%">
+        </div>
         <!-- Main Content -->
         <!-- column, row Prinzip. Max. col.: 12 | lg für large screen-->
             <div class="row">
