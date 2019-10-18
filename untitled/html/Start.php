@@ -18,33 +18,32 @@
         <img src="../img/top(probe).jpg" alt="Kantine" class="mx-auto d-block myPic" width="100%" height="20%">
         <!-- Main Content -->
         <!-- column, row Prinzip. Max. col.: 12 | lg für large screen-->
-        <div class="container-fluid main-content">
-            <div class="row my-row">
-                <div class="col-lg-3 my-col">
+            <div class="row">
+                <div class="col-lg-3">
                     <p class="myText">Der Dienst e-Mensa ist noch beta. Sie können bereits <a href="#">Mahlzeiten</a>
                         durchstöbern, aber noch nicht bestellen.</p>
                 </div>
-                <div class="col-lg-7 my-col">
+                <div class="col-lg-7">
                     <h1>Leckere Gerichte vorbestellen</h1>
                     <p class="myText">... und gemeinsam mit Kommilitonen und Freunden essen, aber leider ist das bier alle
                         :((</p>
                 </div>
-                <div class="col-lg-2 my-col">
+                <div class="col-lg-2">
                     <button type="button" class="btn btn-outline-secondary">Registrieren</button>
                     <br/>
                     <button type="button" class="btn btn-primary">Anmelden</button>
                 </div>
             </div>
-            <div class="row my-row">
-                <div class="col-lg-3 my-col">
+            <div class="row">
+                <div class="col-lg-3">
                     <p class="myText"> Registrieren Sie sich <a href="#">hier</a>, um über die Veröffentlichung des Dienstes per
                         Mail informiert zu werden.</p>
                 </div>
-                <div class="col-lg-9 my-col">
+                <div class="col-lg-9">
                     <img src="../img/top(probe).jpg" alt="..." class="mx-auto d-block" width="100%">
                 </div>
             </div>
-        </div>
+        <hr>
         <?php include('Footer.html');?>
     </body>
 </html>
