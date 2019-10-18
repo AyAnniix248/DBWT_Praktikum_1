@@ -12,7 +12,7 @@
 <body>
 <!--container-fluid ermöglicht die maximale breite eines containers -->
 <!-- Navigation -->
-<nav class="navbar navbar-expand-md navbar-dark bg-company-mint">
+<nav class="navbar navbar-expand-md navbar-dark bg-company-mint mynavBar">
     <div class="container-fluid">
         <a class="navbar-brand" href="#">E-Mensa</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
@@ -24,34 +24,38 @@
                     <a class="nav-link" href="#">Start</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">dfdfd</a>
+                    <a class="nav-link" href="#">Mahlzeiten</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">dfdf</a>
+                    <a class="nav-link" href="#">Bestellungen</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Stghhgart</a>
+                    <a class="nav-link" href="#">Fh-Aachen</a>
                 </li>
             </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            </form>
         </div>
     </div>
 </nav>
-<img src="../img/top.jpg" alt="Kantine" class="mx-auto d-block" width="100%" height="300px">
+<!-- schöner machen -->
+<img src="../img/top(probe).jpg" alt="Kantine" class="mx-auto d-block myPic" width="100%" height="20%">
 <!-- Main Content -->
 <!-- column, row Prinzip. Max. col.: 12 | lg für large screen-->
-<div class="container my-container">
+<div class="container-fluid main-content">
     <div class="row my-row">
         <div class="col-lg-3 my-col">
             <p class="myText">Der Dienst e-Mensa ist noch beta. Sie können bereits <a href="#">Mahlzeiten</a> durchstöbern, aber noch nicht bestellen.</p>
         </div>
         <div class="col-lg-7 my-col">
             <h1>Leckere Gerichte vorbestellen</h1>
-            <p>... und gemeinsam mit Kommilitonen und Freunden essen</p>
+            <p class="myText">... und gemeinsam mit Kommilitonen und Freunden essen</p>
         </div>
         <div class="col-lg-2 my-col">
-            <button type="button" class="btn btn-outline-secondary">Secondary</button>
-            <button class="btn"><i class="fa fa-home"></i> Anmelden</button>
-
+            <button type="button" class="btn btn-outline-secondary">Registrieren</button>
+            <br />
+            <button type="button" class="btn btn-primary">Anmelden</button>
         </div>
     </div>
     <div class="row my-row">
@@ -59,10 +63,20 @@
             <p class="myText"> Registrieren Sie sich <a href="#">hier</a>, um über die Veröffentlichung des Dienstes per Mail informiert zu werden.</p>
         </div>
         <div class="col-lg-9 my-col">
-            <img src="..." alt="..." class="mx-auto d-block">
+            <img src="../img/top(probe).jpg" alt="..." class="mx-auto d-block" width="100%">
         </div>
     </div>
 </div>
+<!-- footer -->
+<footer class="bg-dark py-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-fl-12">
+
+            </div>
+        </div>
+    </div>
+</footer>
 </body>
 </html>
 

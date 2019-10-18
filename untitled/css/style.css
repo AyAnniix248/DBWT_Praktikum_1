@@ -1,21 +1,21 @@
 body{
-    margin: 30px;
+    font-family: "Century Gothic";
+    margin: 50px;
 }
+.mynavBar{
+    margin-bottom: 15px;
+}
+
 .bg-company-mint{
     background-color: #00b1ac;
 }
-.my-container {
-    border: 1px solid green;
-    margin: 5px;
+.myPic{
+    margin-bottom: 15px;
+}
+.main-content{
+    margin-bottom: 15px;
 }
 
-.my-row {
-    border: 3px solid red;
-}
-.my-col {
-    border: 3px solid deeppink;
-}
-.myText {
-    font-family: Roboto;
-    font-size: 280px;
+p {
+    font-size: 28px;
 }
