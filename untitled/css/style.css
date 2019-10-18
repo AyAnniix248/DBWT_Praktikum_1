@@ -6,11 +6,16 @@ body{
 }
 .my-container {
     border: 1px solid green;
+    margin: 5px;
 }
 
 .my-row {
     border: 3px solid red;
 }
 .my-col {
-    border: 3px solid blue;
+    border: 3px solid deeppink;
+}
+.myText {
+    font-family: Roboto;
+    font-size: 280px;
 }

@@ -2,13 +2,12 @@
 <html lang="de">
 <head>
     <meta charset="utf-8">
-    <title>Meilenstein 1</title>
-    <link rel="stylesheet" type="text/css" href="../css/style.css">
     <link rel="stylesheet" href="../css/bootstrap.min.css">
     <script src="../js/bootstrap.min.js"
             integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
             crossorigin="anonymous"></script>
-
+    <title>Meilenstein 1</title>
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
 </head>
 <body>
 <!--container-fluid ermöglicht die maximale breite eines containers -->
@@ -37,20 +36,45 @@
         </div>
     </div>
 </nav>
-<!-- Img Slider-->
-<!--
-<div id="demo" class="carousel slide" data-ride="carousel">
+<img src="../img/top.jpg" alt="Kantine" class="mx-auto d-block" width="100%" height="300px">
+<!-- Main Content -->
+<!-- column, row Prinzip. Max. col.: 12 | lg für large screen-->
+<div class="container my-container">
+    <div class="row my-row">
+        <div class="col-lg-3 my-col">
+            <p class="myText">Der Dienst e-Mensa ist noch beta. Sie können bereits <a href="#">Mahlzeiten</a> durchstöbern, aber noch nicht bestellen.</p>
+        </div>
+        <div class="col-lg-7 my-col">
+            <h1>Leckere Gerichte vorbestellen</h1>
+            <p>... und gemeinsam mit Kommilitonen und Freunden essen</p>
+        </div>
+        <div class="col-lg-2 my-col">
+            <button type="button" class="btn btn-outline-secondary">Secondary</button>
+            <button class="btn"><i class="fa fa-home"></i> Anmelden</button>
 
-     Indicators -->
-<!--
+        </div>
+    </div>
+    <div class="row my-row">
+        <div class="col-lg-3 my-col">
+            <p class="myText"> Registrieren Sie sich <a href="#">hier</a>, um über die Veröffentlichung des Dienstes per Mail informiert zu werden.</p>
+        </div>
+        <div class="col-lg-9 my-col">
+            <img src="..." alt="..." class="mx-auto d-block">
+        </div>
+    </div>
+</div>
+</body>
+</html>
+
+<!-- Img Slider
+<div id="demo" class="carousel slide" data-ride="carousel">
+     Indicators
     <ul class="carousel-indicators">
         <li data-target="#demo" data-slide-to="0" class="active"></li>
         <li data-target="#demo" data-slide-to="1"></li>
         <li data-target="#demo" data-slide-to="2"></li>
     </ul>
-
-     The slideshow -->
-<!--
+ The slideshow
     <div class="carousel-inner">
         <div class="carousel-item active">
             <img src="../img/1.jpg">
@@ -62,9 +86,7 @@
             <img src="../img/3.jpg">
         </div>
     </div>
-
-     Left and right controls -->
-<!--
+ Left and right controls
     <a class="carousel-control-prev" href="#demo" data-slide="prev">
         <span class="carousel-control-prev-icon"></span>
     </a>
@@ -72,23 +94,4 @@
         <span class="carousel-control-next-icon"></span>
     </a>
 </div>
- Main Content -->
-<div class="container my-container">
-    <div class="row my-row">
-        <div class="col my-col">
-            Row 1 Col 1
-        </div>
-        <div class="col my-col">
-            Row 1 Col 2
-        </div>
-    </div>
-    <div class="row my-row">
-        <div class="col my-col">
-            Row 2 Col 1
-        </div>
-    </div>
-</div>
-</div>
-</body>
-</html>
-
+-->
