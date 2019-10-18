@@ -45,7 +45,6 @@
                     <img src="../img/top(probe).jpg" alt="..." class="mx-auto d-block" width="100%">
                 </div>
             </div>
-        <hr>
         <?php include('Footer.html');?>
     </body>
 </html>
