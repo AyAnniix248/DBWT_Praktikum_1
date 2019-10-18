@@ -23,10 +23,10 @@ a:focus {
     text-decoration: none;
 }
 .footerStuff{
-    position: fixed;
     padding-left: 5px;
     padding-right: 5px;
     border-right: 1px black;
+
 }
 p {
     font-size: 28px;
