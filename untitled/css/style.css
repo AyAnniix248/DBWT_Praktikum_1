@@ -17,10 +17,10 @@ body{
     margin-bottom: 15px;
 }
 .logButton{
-    padding: 10px 10px 10px 10px;
+    padding-top: 20px;
     margin: 10px 10px 10px 10px;
     height: 75px;
-    width: 150px;
+    width: 200px;
 }
 .rndImg {
     height: 200px;
@@ -38,4 +38,7 @@ a:focus {
 }
 p {
     font-size: 28px;
+}
+.preis{
+   padding-top: 20px;
 }

@@ -53,44 +53,44 @@
                     <div class="col-md-3">
                         <img class="full-width-img center-block" alt="produkt1" src="../img/Annanas.png" style="max-height:100%; max-width:100%;" />
                         <div class="text-center">Curry Wok</div>
-                        <div class="text-center"><a href="Detail.html">Details</a></div>
+                        <div class="text-center"><a href="Detail.php">Details</a></div>
                     </div>
                     <div class="col-md-3">
                         <img class="full-width-img center-block" alt="produkt1" src="../img/Annanas.png" style="max-height:100%; max-width:100%;" />
                         <div class="text-center">Schnitzel</div>
-                        <div class="text-center"><a href="Detail.html">Details</a></div>
+                        <div class="text-center"><a href="Detail.php">Details</a></div>
                     </div>
                     <div class="col-md-3">
                         <img class="full-width-img center-block" alt="produkt1" src="../img/Annanas.png" style="max-height:100%; max-width:100%;" />
                         <div class="text-center">Bratrolle</div>
-                        <div class="text-center"><a href="Detail.html">Details</a></div>
+                        <div class="text-center"><a href="Detail.php">Details</a></div>
                     </div>
                     <div class="col-md-3">
                         <img class="full-width-img center-block" alt="produkt1" src="../img/Annanas.png" style="max-height:100%; max-width:100%;" />
                         <div class="text-center">Krautsalat</div>
-                        <div class="text-center"><a href="Detail.html">Details</a></div>
+                        <div class="text-center"><a href="Detail.php">Details</a></div>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-md-3">
                         <img class="full-width-img center-block" alt="produkt1" src="../img/Annanas.png" style="max-height:100%; max-width:100%;" />
                         <div class="text-center">Curry Wok</div>
-                        <div class="text-center"><a href="Detail.html">Details</a></div>
+                        <div class="text-center"><a href="Detail.php">Details</a></div>
                     </div>
                     <div class="col-md-3">
                         <img class="full-width-img center-block" alt="produkt1" src="../img/Annanas.png" style="max-height:100%; max-width:100%;" />
                         <div class="text-center">Schnitzel</div>
-                        <div class="text-center"><a href="Detail.html">Details</a></div>
+                        <div class="text-center"><a href="Detail.php">Details</a></div>
                     </div>
                     <div class="col-md-3">
                         <img class="full-width-img center-block" alt="produkt1" src="../img/Annanas.png" style="max-height:100%; max-width:100%;" />
                         <div class="text-center">Bratrolle</div>
-                        <div class="text-center"><a href="Detail.html">Details</a></div>
+                        <div class="text-center"><a href="Detail.php">Details</a></div>
                     </div>
                     <div class="col-md-3">
                         <img class="full-width-img center-block" alt="produkt1" src="../img/Annanas.png" style="max-height:100%; max-width:100%;" />
                         <div class="text-center">Krautsalat</div>
-                        <div class="text-center"><a href="Detail.html">Details</a></div>
+                        <div class="text-center"><a href="Detail.php">Details</a></div>
                     </div>
                 </div>
 
