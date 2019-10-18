@@ -5,7 +5,11 @@ body{
 .mynavBar{
     margin-bottom: 15px;
 }
-
+.navElements {
+    font-family: "Century Gothic";
+    font-size: 20px;
+    font-weight: bold;
+}
 .bg-company-mint{
     background-color: #00b1ac;
 }
