@@ -22,6 +22,9 @@ body{
     height: 75px;
     width: 200px;
 }
+p.smallerFont {
+    font-size: 15px;
+}
 .rndImg {
     height: 200px;
 }
