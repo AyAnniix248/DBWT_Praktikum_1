@@ -15,8 +15,10 @@
         <?php include('Header.html');?>
 
         <!-- schöner machen -->
-        <div class="container-fluid">
-        <img src="../img/mensa-fh-aachen.png" alt="Kantine" class="mx-auto d-block myPic" width="100%" height="20%">
+        <div class="row">
+            <div class="container-fluid myPic">
+                <img src="../img/test.png" class="img-fluid" alt="Responsive image">
+            </div>
         </div>
         <!-- Main Content -->
         <!-- column, row Prinzip. Max. col.: 12 | lg für large screen-->
@@ -31,9 +33,8 @@
                         :((</p>
                 </div>
                 <div class="col-lg-2">
-                    <button type="button" class="btn btn-outline-secondary">Registrieren</button>
-                    <br/>
-                    <button type="button" class="btn btn-primary">Anmelden</button>
+                    <button type="button" class="btn btn-outline-secondary logButton">Registrieren</button>
+                    <button type="button" class="btn btn-primary logButton">Anmelden</button>
                 </div>
             </div>
             <div class="row">
@@ -42,7 +43,7 @@
                         Mail informiert zu werden.</p>
                 </div>
                 <div class="col-lg-9">
-                    <img src="../img/top(probe).jpg" alt="..." class="mx-auto d-block" width="100%">
+                    <img src="../img/Fh-aachen.png" alt="..." class="rndImg" width="100%">
                 </div>
             </div>
         <?php include('Footer.html');?>

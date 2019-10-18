@@ -16,6 +16,15 @@ body{
 .myPic{
     margin-bottom: 15px;
 }
+.logButton{
+    padding: 10px 10px 10px 10px;
+    margin: 10px 10px 10px 10px;
+    height: 75px;
+    width: 150px;
+}
+.rndImg {
+    height: 200px;
+}
 a{
     color: #00b1ac;
 }
@@ -26,7 +35,6 @@ a:focus {
     padding-left: 5px;
     padding-right: 5px;
     border-right: 1px black;
-
 }
 p {
     font-size: 28px;
