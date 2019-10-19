@@ -9,7 +9,7 @@
         <link rel="stylesheet" type="text/css" href="../css/style.css">
     </head>
     <body>
-        <?php include('Header.html');?>
+        <?php include('Header.php');?>
         <div class="row">
             <div class="col-lg-3"></div>
             <div class="col-lg-7">

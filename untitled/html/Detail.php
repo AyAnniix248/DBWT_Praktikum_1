@@ -9,10 +9,10 @@
     <link rel="stylesheet" type="text/css" href="../css/style.css">
 </head>
 <body>
-<?php include('Header.html'); ?>
+<?php include('Header.php'); ?>
 <script>
-    $(document).ready(function(){
-        $(".nav-tabs a").click(function(){
+    $(document).ready(function () {
+        $(".nav-tabs a").click(function () {
             $(this).tab('show');
         });
     });
@@ -44,34 +44,83 @@
             Studenten zu sehen</p>
     </div>
     <!-- Tab system-->
+
     <div class="col-lg-6">
         <ul class="nav nav-tabs">
             <li class="nav-item">
-                <a class="nav-link active" href="#beschreibungen">Beschreibungen</a>
+                <a class="nav-link <?php if (!(isset($_GET['tab2']) || isset($_GET['tab3']))) echo "active"; ?>
+                <h1>test 1</h1>" href="?tab1">Beschreibungen</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link <?php if (isset($_GET['tab2'])) echo "active"; ?>"
+                   href="?tab2">Zutaten</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#zutaten">Zutaten</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#bewertung">Bewertung</a>
+                <a class="nav-link <?php if (isset($_GET['tab3'])) echo "active"; ?>"
+                   href="?tab3">Bewertung</a>
             </li>
         </ul>
-        <!-- Tab panes -->
-        <div class="tab-content">
-            <div id="beschreibungen" class="container tab-pane fade">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
-                    et dolore magna aliqua.</p>
+
+        <?php
+        if (isset($_GET['tab2'])) {
+            ?>
+            <p>Kichererbsen und Sesam</p>
+            <?php
+        } else if (isset($_GET['tab3'])) {
+        ?>
+        <form action="http://bc5.m2c-lab.fh-aachen.de/form.php" method="post">
+           <div class="form-group row">
+                <label class="col-sm-2 col-form-label" for="mahlzeit">Mahlzeit</label>
+                <div class="col-sm-4">
+                    <select name="mahlzeit" class="form-control" id="mahlzeit">
+                        <option>Schnitzel</option>
+                        <option>Bratrolle</option>
+                        <option>Krautsalat</option>
+                    </select>
+                </div>
             </div>
-            <div id="zutaten" class="container tab-pane fade"><br>
-                <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                    consequat.</p>
+            <div class="form-group row">
+                <label for="benutzer" class="col-sm-2 col-form-label">Benutzername</label>
+                <div class="col-sm-4">
+                    <input name="benutzer" id="benutzer" class="form-control" placeholder="Benutzername">
+                </div>
             </div>
-            <div id="bewertung" class="container tab-pane fade"><br>
-                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium,
-                    totam rem aperiam.</p>
+            <div class="form-group row">
+                <label for="bewertung" class="col-sm-2 col-form-label">Bewertung</label>
+                <div class="col-sm-2">
+                    <select name="bewertung" id="bewertung" class="custom-select ">
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                    </select>
+                </div>
             </div>
-        </div>
-    </div>
+            <div class="form-group row">
+                    <label for="bemerkung" class="col-sm-2">Textarea</label>
+                <div class="col-sm-4">
+                    <textarea name="bemerkung" class="form-control" id="bemerkung"
+                              placeholder="Bemerkung"></textarea>
+                </div>
+            </div>
+            <input type="hidden" name="matrikel" value="3217296"/>
+            <input type="hidden" name="kontrolle" value="kal"/>
+
+            <div class="form-group row">
+                <div class="col-sm-2"></div>
+                <div class="col-sm-3">
+                    <button type="submit" class="btn btn-primary">Bewertung absenden</button>
+                </div>
+            </div>
+    </form>
+    <?php
+    } else { ?>
+        <p> Teigtasche mit Falafel aus Kichererbsen und Sesam. </p>
+    <?php }
+    ?>
+</div>
 </div>
 
 <?php include('Footer.html'); ?>
