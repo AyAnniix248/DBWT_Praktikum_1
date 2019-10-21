@@ -10,13 +10,7 @@
 </head>
 <body>
 <?php include('Header.php'); ?>
-<script>
-    $(document).ready(function () {
-        $(".nav-tabs a").click(function () {
-            $(this).tab('show');
-        });
-    });
-</script>
+
 <div class="row">
     <!--Login-->
     <div class="col-lg-3 border-dark p-3">
