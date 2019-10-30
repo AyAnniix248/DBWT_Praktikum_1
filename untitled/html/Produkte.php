@@ -1,7 +1,9 @@
+<!DOCTYPE html>
 <html lang="de">
     <head>
         <meta charset="utf-8">
         <link rel="stylesheet" href="../css/bootstrap.min.css">
+        <link href="../css/all.css" rel="stylesheet">
         <script src="../js/bootstrap.min.js"
                 integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
                 crossorigin="anonymous"></script>
@@ -34,7 +36,7 @@
                     </div>
                     <div class="form-check">
                         <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
-                        <label class="form-check-label" for="exampleRadios2">
+                        <label class="form-check-label" for="exampleRadios1">
                             nur vegetarische
                         </label>
                     </div>

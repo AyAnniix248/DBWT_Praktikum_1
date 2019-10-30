@@ -43,7 +43,7 @@
                         Mail informiert zu werden.</p>
                 </div>
                 <div class="col-lg-9">
-                    <img src="../img/Fh-aachen.png" alt="..." class="rndImg" width="100%">
+                    <img src="../img/Fh-aachen.png" alt="..." class="rndImg">
                 </div>
             </div>
         <?php include('Footer.html');?>

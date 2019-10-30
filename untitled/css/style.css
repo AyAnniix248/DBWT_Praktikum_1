@@ -45,3 +45,14 @@ p {
 .preis{
    padding-top: 20px;
 }
+#searchIcon {
+    margin-right: -30px;
+    z-index: 2;
+}
+#searchBarHeader {
+    padding-left: 40px;
+}
+
+footer {
+    margin-top: 40px;
+}

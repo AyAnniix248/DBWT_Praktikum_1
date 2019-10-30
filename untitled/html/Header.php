@@ -21,10 +21,11 @@
                 </li>
             </ul>
             <form class="form-inline my-2 my-lg-0" action="http://www.google.de/search" method="get" target="_blank">
-                <input class="form-control mr-sm-2 rounded-pill" name="q" placeholder="Suchen...">
+                <i class="fas fa-search" id="searchIcon"></i>
+                <input id="searchBarHeader" class="form-control mr-sm-2 rounded-pill" name="q" placeholder="Suchen..."/>
+
                 <input type="hidden" name="as_sitesearch" value="www.fh-aachen.de"/>
             </form>
         </div>
     </nav>
 </header>
-</html>

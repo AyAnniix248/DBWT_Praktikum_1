@@ -1,7 +1,9 @@
+<!DOCTYPE html>
 <html lang="de">
 <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link href="../css/all.css" rel="stylesheet">
     <script src="../js/bootstrap.min.js"
             integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
             crossorigin="anonymous"></script>
@@ -23,7 +25,7 @@
     </div>
     <div class="col-lg-7">
         <h1>Details für "Falafel"</h1>
-        <img src="../img/Fh-aachen.png" alt="..." class="rndImg" width="100%">
+        <img src="../img/Fh-aachen.png" alt="..." class="rndImg">
         <p></p>
     </div>
     <div class="col-lg-2 preis">
@@ -42,16 +44,16 @@
     <div class="col-lg-6">
         <ul class="nav nav-tabs">
             <li class="nav-item">
-                <a class="nav-link <?php if (!(isset($_GET['tab2']) || isset($_GET['tab3']))) echo "active"; ?>
+                <a class="nav-link <?php if (!(isset($_GET['tab2']) || isset($_GET['tab3']))) echo 'active'; ?>
                 <h1>test 1</h1>" href="?tab1">Beschreibungen</a>
             </li>
 
             <li class="nav-item">
-                <a class="nav-link <?php if (isset($_GET['tab2'])) echo "active"; ?>"
+                <a class="nav-link <?php if (isset($_GET['tab2'])) echo 'active'; ?>"
                    href="?tab2">Zutaten</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link <?php if (isset($_GET['tab3'])) echo "active"; ?>"
+                <a class="nav-link <?php if (isset($_GET['tab3'])) echo 'active'; ?>"
                    href="?tab3">Bewertung</a>
             </li>
         </ul>
