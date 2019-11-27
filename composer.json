@@ -1,0 +1,16 @@
+{
+  "name": "ck6150s/M2",
+  "description": "description_text",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "author's name",
+      "email": "email@example.com"
+    }
+  ],
+  "require": {
+    "monolog/monolog": "2.0.1",
+    "vlucas/phpdotenv": "3.6.x-dev"
+  }
+}

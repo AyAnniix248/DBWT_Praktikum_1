@@ -8,10 +8,10 @@
             <a class="navbar-brand" href="Start.php">E-Mensa</a>
             <ul class="navbar-nav mr-auto navElements">
                 <li class="nav-item border-right <?= "Start.php" == basename($_SERVER['PHP_SELF']) ? "active" : ""?>">
-                    <a class="nav-link" href="Start.php">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" <?= "Start.php" == basename($_SERVER['PHP_SELF']) ? "" : "href='Start.php'"?>>Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item  border-right <?= "Produkte.php" == basename($_SERVER['PHP_SELF']) ? "active" : ""?>">
-                    <a class="nav-link" href="Produkte.php">Mahlzeiten</a>
+                    <a class="nav-link"  <?= "Produkte.php" == basename($_SERVER['PHP_SELF']) ? "" : "href='Produkte.php'"?>>Mahlzeiten</a>
                 </li>
                 <li class="nav-item border-right">
                     <a class="nav-link" href="#">Bestellungen</a>
